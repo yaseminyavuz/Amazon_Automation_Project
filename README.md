@@ -1,31 +1,37 @@
-Project Description This project automates the testing of specific Amazon website features using Selenium and the Page Object Model (POM) design pattern. The goal is to ensure the accuracy and stability of product search and cart handling functions.
+# Amazon Test Automation Project
 
-Test Scope
+## Overview
+Automated testing of Amazon website features using Selenium and Page Object Model (POM).
 
-User login/logout
+## Test Scope
+- User Login/Logout
+- Product Search
+- Cart Operations
+- Payment Screen Navigation
+- Product Filtering & Sorting
 
-Product search and listing
+## Test Environment
+- **OS**: Windows 10/11
+- **Browser**: Microsoft Edge
+- **Python**: 3.13
 
-Adding and removing products from the cart
+## Libraries
+- Selenium
+- unittest
+- webdriver-manager
+- pytest
 
-Redirection to the payment screen
+## Running Tests
+```bash
+git clone https://github.com/yaseminyavuz/Amazon_Automation_Project.git
+pip install -r requirements.txt
+python -m unittest discover tests
+```
 
-Filtering and sorting functionality
+## Links
+- [GitHub](https://github.com/yaseminyavuz/Amazon_Automation_Project)
+- [YouTube Demo](https://youtu.be/P6BczQfqv5w?si=hW6ImYqqvWEQq7CE)
 
-Test Environment
+## Author
+Yasemin Yavuz
 
-Operating System: Windows 10/11
-
-Browser: Microsoft Edge (Latest Version)
-
-Python Version: 3.13
-
-Libraries
-
-Selenium
-
-unittest
-
-webdriver-manager
-
-pytest (for alternative reporting)
