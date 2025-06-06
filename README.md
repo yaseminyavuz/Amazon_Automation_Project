@@ -30,7 +30,7 @@ python -m unittest discover tests
 
 ## Links
 - [GitHub](https://github.com/yaseminyavuz/Amazon_Automation_Project)
-- [YouTube Demo](https://youtu.be/P6BczQfqv5w?si=hW6ImYqqvWEQq7CE)
+
 
 ## Author
 Yasemin Yavuz
